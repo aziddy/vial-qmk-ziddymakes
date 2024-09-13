@@ -1,0 +1,9 @@
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_INSECURE = yes
+
+MOUSEKEY_ENABLE = yes
+MIDI_ENABLE = yes
+
+LTO_ENABLE = yes
+QMK_SETTINGS = yes

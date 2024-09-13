@@ -1,0 +1,1 @@
+qmk compile -kb zm_7k -km vial
