@@ -7,9 +7,9 @@
   "bootloader": "rp2040",
   "board": "GENERIC_RP_RP2040",
   "usb": {
-      "device_version": "2.0.1",
-      "pid": "0x7546",
-      "vid": "0x4877"
+      "device_version": "2.0.2",
+      "pid": "0x7549",
+      "vid": "0x4879"
   },
   "features": {
       "audio": false,

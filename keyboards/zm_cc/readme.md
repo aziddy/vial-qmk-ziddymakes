@@ -1,1 +1,1 @@
-qmk compile -kb zm_cc -km vial
+qmk compile -j 0 -kb zm_cc -km vial
