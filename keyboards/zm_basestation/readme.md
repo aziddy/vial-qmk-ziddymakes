@@ -1,0 +1,1 @@
+qmk compile -kb zm_basestation -km vial
