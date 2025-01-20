@@ -28,10 +28,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | 1  | 2  | 3  | En  |
  * `--------------------'
  */
- [0] = LAYOUT_zm_basestation(
-   KC_A,     KC_B,     KC_C,
-   KC_D,     KC_E,     KC_F,
-   KC_Z,     KC_G,     KC_H,      KC_I
+ [0] = LAYOUT_zm_based(
+   KC_A,     KC_B,     KC_C,    KC_D, 
+   KC_E,     KC_F,     KC_G,    KC_H,
+   KC_Z,     KC_I,     KC_J,     KC_K,   KC_L
  )
 };
 
