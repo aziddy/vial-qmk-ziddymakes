@@ -2,6 +2,9 @@
     "name": "Ziddy Makes - ZM K9",
     "vendorId": "0x7546",
     "productId": "0x4899",
+    "vial": {
+        "midi": "advanced"
+    },
     "lighting": "qmk_rgblight",
     "matrix": {"rows": 3, "cols": 4},
     "layouts":{
