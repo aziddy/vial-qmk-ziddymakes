@@ -3,6 +3,9 @@
     "vendorId": "0x7546",
     "productId": "0x4879",
     "lighting": "qmk_rgblight",
+    "vial": {
+        "midi": "advanced"
+    },
     "matrix": {"rows": 3, "cols": 3},
     "layouts":{
         "keymap":[
