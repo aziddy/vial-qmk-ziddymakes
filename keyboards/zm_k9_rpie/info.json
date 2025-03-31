@@ -1,13 +1,13 @@
 {
   "manufacturer": "ziddymakes",
-  "keyboard_name": "ZM-K9-RPiE",
+  "keyboard_name": "ZM-9K_RPIE",
   "url": "shop.ziddymakes.com",
   "maintainer": "ziddymakes",
   "processor": "RP2040",
   "bootloader": "rp2040",
   "board": "GENERIC_RP_RP2040",
   "usb": {
-      "device_version": "2.0.3",
+      "device_version": "2.0.4",
       "pid": "0x7549",
       "vid": "0x4879"
   },
@@ -55,9 +55,10 @@
   },
   "matrix_pins": {
       "direct": [
-        ["GP1", "GP2", "GP3", null],
-        ["GP4", "GP5", "GP6", null],
-        ["GP21", "GP7", "GP8", "GP9"]
+        ["GP1", "GP2", "GP3"],
+        ["GP4", "GP5", "GP6"],
+        ["GP7", "GP8", "GP9"],
+        ["GP21", null, null ]
     ]
   },
   "encoder": {
@@ -79,7 +80,8 @@
               {"matrix": [2, 0], "x": 0, "y": 2},
               {"matrix": [2, 1], "x": 1, "y": 2},
               {"matrix": [2, 2], "x": 2, "y": 2},
-              {"matrix": [2, 3], "x": 3, "y": 2}
+
+              {"matrix": [3, 0], "x": 0, "y": 0}
           ]
       }
   }
