@@ -1,4 +1,4 @@
-/* Copyright 2020 Ungodly Design <hello@ungodly.design>
+/* Copyright 2024 Ziddy Makes
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,10 +28,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | 1  | 2  | 3  | En  |
  * `--------------------'
  */
- [0] = LAYOUT_zm_k16(
-   KC_A,     KC_B,     KC_C,      KC_D,
-   KC_E,     KC_F,     KC_G,      KC_H,
-   KC_I,     KC_J,     KC_K,      KC_L,
-   KC_M,    KC_N,      KC_O,      KC_P
+ [0] = LAYOUT_zm_k9(
+   KC_A,     KC_B,     KC_C,
+   KC_D,     KC_E,     KC_F,
+   KC_Z,     KC_G,     KC_H,      KC_I
  )
 };
+
+
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+};
+#endif
