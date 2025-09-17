@@ -1,0 +1,16 @@
+{
+    "name": "ZM 1K SPACEBAR",
+    "productId": "0x7882",
+    "vendorId": "0x4893",
+    "vial": {
+        "midi": "advanced"
+    },
+    "lighting": "qmk_rgblight",
+    "matrix": {"rows": 1, "cols": 1},
+    "layouts":{
+        "keymap":[
+            [{"x":0.5, "y":0}, "0,0"],
+            [{"x":0, "y":0}, "0,0\n\n\n\n\n\n\n\n\ne", "0,1\n\n\n\n\n\n\n\n\ne"]
+        ]
+    }
+  }
