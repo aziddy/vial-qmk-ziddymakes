@@ -8,7 +8,7 @@
   "board": "GENERIC_RP_RP2040",
   "usb": {
       "device_version": "2.0.1",
-      "pid": "0x7879",
+      "pid": "0x7882",
       "vid": "0x4893"
   },
   "features": {
