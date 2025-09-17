@@ -1,0 +1,70 @@
+{
+  "manufacturer": "ziddymakes",
+  "keyboard_name": "ZM 3K TAB",
+  "url": "shop.ziddymakes.com",
+  "maintainer": "ziddymakes",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "board": "GENERIC_RP_RP2040",
+  "usb": {
+      "device_version": "2.0.1",
+      "pid": "0x7883",
+      "vid": "0x4893"
+  },
+  "features": {
+      "audio": false,
+      "backlight": false,
+      "bootmagic": true,
+      "command": false,
+      "console": false,
+      "encoder": false,
+      "extrakey": true,
+      "mousekey": true,
+      "midi": true,
+      "nkro": false,
+      "rgb_matrix": false,
+      "rgblight": true
+  },
+  "ws2812": {
+    "driver": "vendor",
+    "pin": "GP10"
+  },
+  "rgblight": {
+    "driver": "ws2812",
+    "saturation_steps": 8,
+    "brightness_steps": 8,
+    "led_count": 3,
+    "max_brightness": 255,
+    "sleep": true,
+    "animations": {
+        "breathing": true,
+        "rainbow_mood": true,
+        "rainbow_swirl": true,
+        "snake": true,
+        "knight": true,
+        "christmas": true,
+        "static_gradient": true,
+        "rgb_test": true,
+        "alternating": true
+    },
+    "default":{
+        "animation": "rainbow_swirl",
+        "val": 150,
+        "speed": 3
+    }
+  },
+  "matrix_pins": {
+      "direct": [
+        ["GP3", "GP2", "GP1"]
+    ]
+  },
+  "layouts": {
+      "LAYOUT_zm_3k_tab": {
+          "layout": [
+              {"matrix": [0, 0], "x": 0, "y": 0},
+              {"matrix": [0, 1], "x": 1, "y": 0},
+              {"matrix": [0, 2], "x": 2, "y": 0}
+          ]
+      }
+  }
+}

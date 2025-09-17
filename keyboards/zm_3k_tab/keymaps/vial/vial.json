@@ -1,0 +1,15 @@
+{
+    "name": "ZM 3K TAB",
+    "productId": "0x7883",
+    "vendorId": "0x4893",
+    "vial": {
+        "midi": "advanced"
+    },
+    "lighting": "qmk_rgblight",
+    "matrix": {"rows": 1, "cols": 3},
+    "layouts":{
+        "keymap":[
+            [{"y":0, "w": 1.25}, "0,0", { "y":0, "w": 1}, "0,1", {"y":0, "w": 1}, "0,2"]
+        ]
+    }
+  }
