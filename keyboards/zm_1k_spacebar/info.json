@@ -17,7 +17,7 @@
       "bootmagic": true,
       "command": false,
       "console": false,
-      "encoder": true,
+      "encoder": false,
       "extrakey": true,
       "mousekey": true,
       "midi": true,
@@ -58,15 +58,10 @@
         ["GP2"]
     ]
   },
-  "encoder": {
-    "rotary": [
-        {"pin_a": "GP19", "pin_b": "GP20"}
-    ]
-  },
   "layouts": {
       "LAYOUT_zm_1k_spacebar": {
           "layout": [
-              {"matrix": [0, 0], "x": 1, "y": 0}
+              {"matrix": [0, 0], "x": 0, "y": 0}
           ]
       }
   }
