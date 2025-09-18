@@ -18,12 +18,12 @@ brew install qmk/qmk/qmk
 ```
 
 ### Download Required Dependencies Like avr-gcc to Your System ⚠️
- ```
- qmk setup
- ```
- *Just let it clone the base qmk repo to whatever default path, you won't use it anyways*
- 
- <br>
- 
- ## Vial.json Layout Editor Help
- https://www.keyboard-layout-editor.com/#/
+```
+qmk setup
+```
+*Just let it clone the base qmk repo to whatever default path, you won't use it anyways*
+
+<br>
+
+## Vial.json Layout Editor Help
+https://www.keyboard-layout-editor.com/#/
