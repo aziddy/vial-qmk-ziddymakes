@@ -17,13 +17,31 @@
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-/* Keymap _BL: (Base Layer) Default 3-Key Layer
- * ,-------------------.
- * |  A  | TAB |  B   |
- * `--------------------'
+/* Keymap _BL: (Base Layer) Phone Keyboard Layout
+ * ,---------------------------------.
+ * |  1  |  2  |  3  |  4  |  5     |
+ * |---------------------------------|
+ * |  Q  |  W  |  E  |  R  |  T     |
+ * |---------------------------------|
+ * |  A  |  S  |  D  |  F  |  G     |
+ * |---------------------------------|
+ * |  Z  |  X  |  C  |  V  |  B     |
+ * |---------------------------------|
+ * | ESC | TAB | SPC | ENT | BSPC   |
+ * |---------------------------------|
+ * |  6  |  7  |  8  |  9  |  0     |
+ * |---------------------------------|
+ * |  Y  |  U  |  I  |  O  |  P     |
+ * `---------------------------------'
  */
  [0] = LAYOUT_zm_phone_keyboard(
-   KC_A,    KC_TAB,    KC_B
+   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,
+   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,
+   KC_A,    KC_S,    KC_D,    KC_F,    KC_G,
+   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,
+   KC_ESC,  KC_TAB,  KC_SPC,  KC_ENT,  KC_BSPC,
+   KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
+   KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
  )
 };
 

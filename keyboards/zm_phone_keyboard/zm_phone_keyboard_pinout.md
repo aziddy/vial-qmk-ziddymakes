@@ -12,5 +12,5 @@
 | COL1       | GPIO9              |
 | COL2       | GPIO11             |
 | COL3       | GPIO12             |
-| COL4       | GPIO14             |
+| COL4       | GPIO1              |
 | COL5       | GPIO3              |
