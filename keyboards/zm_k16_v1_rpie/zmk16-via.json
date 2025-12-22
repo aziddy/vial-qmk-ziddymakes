@@ -2,9 +2,6 @@
     "name": "ZM K16 V1 RPIE",
     "vendorId": "0x7534",
     "productId": "0x4877",
-    "vial": {
-        "midi": "advanced"
-    },
     "lighting": "none",
     "matrix": {"rows": 4, "cols": 4},
     "layouts":{
@@ -16,4 +13,10 @@
         ]
 
     }
-  }    
+  }
+
+
+
+
+
+    

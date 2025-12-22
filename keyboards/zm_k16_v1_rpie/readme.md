@@ -1,12 +1,7 @@
 # Compile Firmware
-```
-qmk compile -kb zm_k16_v1_rpie -km vial
-```
 
-## Clean QMK /.build Folder
-```
-qmk clean
-```
+qmk compile -kb zm_k16_v1_rpie -km vial
+
 
 # Install QMK Toolchain on Mac
 https://docs.qmk.fm/newbs_getting_started  
@@ -22,8 +17,3 @@ brew install qmk/qmk/qmk
  qmk setup
  ```
  *Just let it clone the base qmk repo to whatever default path, you won't use it anyways*
- 
- <br>
- 
- ## Vial.json Layout Editor Help
- https://www.keyboard-layout-editor.com/#/

@@ -1,4 +1,4 @@
-/* Copyright 2025 - Ziddy Makes™ - Alex Zidros
+/* Copyright 2024 Ziddymakes <ziddy@ziddymakes.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
