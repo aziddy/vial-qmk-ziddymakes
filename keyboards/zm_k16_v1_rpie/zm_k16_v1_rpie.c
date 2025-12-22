@@ -14,3 +14,18 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "zm_k16_v1_rpie.h"
+
+void keyboard_post_init_kb(void) {
+    // Set GP8 as output for LED
+    setPinOutput(GP8);
+
+    // Flash LED 3 times on bootup
+    for (int i = 0; i < 3; i++) {
+        writePinHigh(GP8);
+        wait_ms(300);
+        writePinLow(GP8);
+        wait_ms(300);
+    }
+
+    keyboard_post_init_user();
+}
