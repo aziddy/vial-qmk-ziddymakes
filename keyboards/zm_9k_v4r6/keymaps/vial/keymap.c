@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | 1  | 2  | 3  | En  |
  * `--------------------'
  */
- [0] = LAYOUT_zm_k9_r2(
+ [0] = LAYOUT_zm_9k_v4r6(
    KC_A,     KC_B,     KC_C,
    KC_D,     KC_E,     KC_F,
    KC_Z,     KC_G,     KC_H,      KC_I

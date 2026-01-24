@@ -1,6 +1,6 @@
 {
   "manufacturer": "ziddymakes",
-  "keyboard_name": "ZM-K9-R2",
+  "keyboard_name": "ZM-9K-V4R6",
   "url": "shop.ziddymakes.com",
   "maintainer": "ziddymakes",
   "processor": "RP2040",
@@ -57,16 +57,16 @@
       "direct": [
         ["GP1", "GP2", "GP3", null],
         ["GP6", "GP5", "GP4", null],
-        ["GP9", "GP8", "GP7", "GP21"]
+        ["GP21", "GP9", "GP8", "GP7"]
     ]
   },
   "encoder": {
     "rotary": [
-        {"pin_a": "GP20", "pin_b": "GP19"}
+        {"pin_a": "GP19", "pin_b": "GP20"}
     ]
   },
   "layouts": {
-      "LAYOUT_zm_k9_r2": {
+      "LAYOUT_zm_9k_v4r6": {
           "layout": [
               {"matrix": [0, 0], "x": 0, "y": 0},
               {"matrix": [0, 1], "x": 1, "y": 0},

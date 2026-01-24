@@ -1,6 +1,6 @@
 # Compile Firmware
 
-qmk compile -kb zm_k9_r2 -km vial
+qmk compile -kb zm_9k_v4r6 -km vial
 
 
 # Install QMK Toolchain on Mac
@@ -18,7 +18,7 @@ brew install qmk/qmk/qmk
  ```
  *Just let it clone the base qmk repo to whatever default path, you won't use it anyways*
 
-# Pinouts for ZM9K R2
+# Pinouts for ZM 9K V4R6
 | GPIO   | Net Name        |
 | ------ | --------------- |
 | GPIO0  | SK_DATA         |
