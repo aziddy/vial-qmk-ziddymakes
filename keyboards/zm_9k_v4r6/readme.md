@@ -12,6 +12,9 @@ https://docs.qmk.fm/newbs_getting_started
 brew install qmk/qmk/qmk
 ```
 
+### KLE Layout Editor Help
+https://www.keyboard-layout-editor.com/#/
+
 ### Download Required Dependencies Like avr-gcc to Your System ⚠️
  ```
  qmk setup
