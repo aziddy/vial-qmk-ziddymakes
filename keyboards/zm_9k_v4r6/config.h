@@ -16,5 +16,14 @@
 
 #pragma once
 
+// Flash configuration - 2MB (16Mbit) flash chip: W25Q16JVUXIQ
+#define PICO_FLASH_SIZE_BYTES (2 * 1024 * 1024)
+
+// EEPROM emulation configuration - Maximize VIAL macro/keymap storage
+// With 2MB flash, we can use the maximum 64KB EEPROM size
+// (firmware for a 9-key macropad is well under 1MB, leaving plenty of room)
+#define WEAR_LEVELING_LOGICAL_SIZE 65536    // 64KB logical EEPROM (maximum allowed by QMK)
+#define WEAR_LEVELING_BACKING_SIZE 131072   // 128KB backing storage (2x logical size for wear leveling)
+
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
